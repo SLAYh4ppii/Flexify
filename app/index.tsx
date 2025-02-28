@@ -3,8 +3,9 @@ import React, { memo, useEffect, useRef } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { useStore } from '@/src/store/store';
-import { webClientId } from '@/Keys';
+import { webClientId } from '@/src/store/keys';
 import LottieView from 'lottie-react-native';
+import 'react-native-reanimated';
 
 const index = memo(() => {
 

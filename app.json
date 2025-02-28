@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Flexify",
-    "slug": "Flexify",
+    "slug": "test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/appicon.jpeg",
@@ -14,8 +14,11 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier":"com.devyashjangid.Flexify",
-      "googleServicesFile": "./GoogleService-Info.plist"
+      "bundleIdentifier": "com.devyashjangid.Flexify",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -43,8 +46,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "5ca3c4a6-da58-4223-a108-9983a57c3cbf"
+        "projectId": "38bc5443-298a-401a-9cfd-aa957c63fed4"
       }
-    }
+    },
+    "owner": "h4ppii"
   }
 }

@@ -5,7 +5,7 @@ import { Pedometer } from "expo-sensors";
 import firestore from '@react-native-firebase/firestore';
 import { Alert } from "react-native";
 import { Content, GoogleGenerativeAI } from "@google/generative-ai";
-import { GEMINI_API_KEY } from "@/Keys";
+import { GEMINI_API_KEY } from "@/src/store/keys";
 import { UserData, Activity, ExerciseData, Meal, MealData, ChatMessage } from "@/global";
 import RNFS from 'react-native-fs';
 

@@ -1,6 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import Markdown from 'react-native-markdown-display';
+import { ChatMessage } from '@/global';
 
 interface ChatCardProps {
   chatItem: ChatMessage
